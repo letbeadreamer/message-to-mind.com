@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drag Your Mood</title>
+    <link rel="stylesheet" href="msg.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Drag Your Mind Set Here</h1>
+        <form id="motivationForm">
+            <label for="name" style="font-size:25px;">Name:</label>
+            <input type="text" id="name" required><br><br>
+            
+            <label for="age" style="font-size:25px;">Age:</label>
+            <input type="number" id="age" required><br><br>
+            
+            <label for="mood" style="font-size:20px;">Mood:</label>
+            <select id="mood">
+                <option value="happy">Happy</option>
+                <option value="sad">Sad</option>
+                <option value="okay">Okay</option>
+                <option value="love">In Love</option>
+                <option value="need_motivation">Need Motivation</option>
+            </select><br><br>
+            
+            <button type="button" onclick="generateMessage()" style="font-size:20px;">Touch Me</button>
+        </form>
+        <div id="motivationMessage"></div>
+        <p>Do you want to try for your friends ??</p>
+        <p>Then why waiting Just REFRESH the page and DO IT (:</p>
+    </div>
+    
+    <script src="msg.js"></script>
+</body>
+</html>

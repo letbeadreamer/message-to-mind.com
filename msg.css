@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-image:url(images.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    padding-top:100px;
+
+
+}
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 30px;
+    padding-top:10px;
+    background-image:url(images.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Add this CSS for mobile responsiveness */
+@media screen and (max-width: 600px) {
+    .container {
+        max-width: 90%;
+    }
+}
